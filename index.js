@@ -54,5 +54,10 @@ app.post('/register', async (req, res) => {
   }
 });
 
+
+app.get('/', (req, res)=> {
+    res.send({message: "this is testing page"})
+})
+
 // Start server
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
