@@ -57,7 +57,7 @@ app.post('/register', async (req, res) => {
 
 app.get('/', (req, res)=> {
   const demoMessage = {
-    message: "This is the server testing page"
+    message: "This is the server testing page That I want to make very easy"
   }
     res.send(demoMessage)
 })
