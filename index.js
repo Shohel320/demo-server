@@ -56,7 +56,10 @@ app.post('/register', async (req, res) => {
 
 
 app.get('/', (req, res)=> {
-    res.send({message: "this is testing page"})
+  const demoMessage = {
+    message: "This is the server testing page"
+  }
+    res.send(demoMessage)
 })
 
 // Start server
